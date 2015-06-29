@@ -21,8 +21,7 @@
    <typeOfResource>text</typeOfResource>
    <originInfo>
       <place supplied="yes">
-         <placeTerm type="text"
-                    valueURI="http://id.loc.gov/authorities/names/n79109786 | Coordinates: 35.96064, -83.92074">Knoxville (Tenn.)</placeTerm>
+         <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n79109786">Knoxville (Tenn.)</placeTerm>
       </place>
       <publisher>The University of Tennessee</publisher>
       <dateCreated>1958 Fall</dateCreated>
@@ -30,7 +29,6 @@
    </originInfo>
    <physicalDescription>
       <form authority="aat" valueURI="http://vocab.getty.edu/aat/300264821">printed ephemera</form>
-      <internetMediaType>image/jp2</internetMediaType>
       <digitalOrigin>reformatted digital</digitalOrigin>
    </physicalDescription>
    <language>
@@ -39,8 +37,13 @@
    <note>Publications for students</note>
    <location>
       <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
-      <url access="object in context" usage="primary">http://digital.lib.utk.edu/mpds/?ckey=comm&amp;iid=1358</url>
    </location>
+   <subject>
+      <topic>University of Tennessee (Knoxville campus)--Degrees--Periodicals</topic>
+   </subject>
+   <subject>
+      <topic>University of Tennessee (Knoxville campus)--Alumni and alumnae--Directories</topic>
+   </subject>
    <relatedItem type="host" displayLabel="Project">
       <titleInfo>
          <title>University of Tennessee Commencement Programs</title>
