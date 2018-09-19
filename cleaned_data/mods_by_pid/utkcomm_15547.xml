@@ -1,5 +1,6 @@
 
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+  <titleInfo supplied="yes"><title>University of Tennessee - Summer 1961</title></titleInfo>
   <identifier type="local">comm_1961summer</identifier>
   <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80003889">
     <namePart>University of Tennessee, Knoxville</namePart>
