@@ -15,7 +15,8 @@
 <mods>
 <identifier type="pid">{{cells['PID'].value}}</identifier>
 <identifier type="filename">{{cells['identifier'].value}}</identifier>
-{{if(isBlank(cells['title'].value), '', '<titleInfo><title>' + cells["title"].value + '</title></titleInfo>')}} {{if(isBlank(cells['supplied_title'].value), '', '<titleInfo supplied="yes"><title>' + cells['supplied_title'].value + '</title></titleInfo>')}}
+{{if(isBlank(cells['title'].value), '', '<titleInfo><title>' + cells["title"].value + '</title></titleInfo>')}}
+{{if(isBlank(cells['title_supplied'].value), '', '<titleInfo supplied="yes"><title>' + cells['title_supplied'].value + '</title></titleInfo>')}}
 {{if(isBlank(cells["abstract"].value),'', '<abstract>' + cells['abstract'].value + '</abstract>')}}
 {{'<originInfo>' + if(isBlank(cells['year'].value), '', '<dateCreated>' + cells['year'].value + '</dateCreated>') + if(isBlank(cells['dateCreated_edtf'].value), '', '<dateCreated encoding="edtf" keyDate="yes">' + cells['dateCreated_edtf'].value + '</dateCreated>') + '<publisher>' + cells['publisher'].value + '</publisher></originInfo>'}}
 <physicalDescription><form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form></physicalDescription>
@@ -27,7 +28,6 @@
 <typeOfResource>text</typeOfResource>
 <classification authority="lcc">{{cells['classification'].value}}</classification>
 <relatedItem displayLabel="Project" type="host"><titleInfo><title>{{cells['digital_collection'].value}}</title></titleInfo></relatedItem>
-<relatedItem displayLabel="Collection" type="host"><titleInfo><title>{{cells['archival_collection'].value}}</title></titleInfo><identifier>{{cells['collection_identifier'].value}}</identifier></relatedItem>
 <location><physicalLocation valueURI="http://id.loc.gov/authorities/names/no2014027633">University of Tennessee, Knoxville. Special Collections</physicalLocation></location>
 <recordInfo><recordContentSource valueURI="http://id.loc.gov/authorities/names/n87808088">University of Tennessee, Knoxville. Libraries</recordContentSource><recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin></recordInfo>
 <accessCondition type="use and reproduction" xlink:href="{{cells['rights_URI'].value}}">{{cells['rights'].value}}</accessCondition>
