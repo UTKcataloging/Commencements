@@ -40,7 +40,7 @@
       <languageTerm type="text" authority="iso639-2b">English</languageTerm>
    </language>
    <typeOfResource>text</typeOfResource>
-   <classification authority="lcc">LD5297 .U55 1842</classification>
+   <classification authority="lcc">LD5297 .U55</classification>
    <relatedItem displayLabel="Project" type="host">
       <titleInfo>
          <title>University of Tennessee Commencement Programs</title>

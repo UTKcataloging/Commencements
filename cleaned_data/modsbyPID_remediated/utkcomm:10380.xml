@@ -7,7 +7,7 @@
    <identifier type="pid">utkcomm:10380</identifier>
    <identifier type="filename">comm_1910spring</identifier>
    <titleInfo>
-      <title>One hundred and third annual commencement  University of Tennessee</title>
+      <title>One hundred and third annual commencement University of Tennessee</title>
    </titleInfo>
    <titleInfo supplied="yes">
       <title>Commencement of the University of Tennessee (Knoxville campus), 1910 Spring</title>
@@ -40,7 +40,7 @@
       <languageTerm type="text" authority="iso639-2b">English</languageTerm>
    </language>
    <typeOfResource>text</typeOfResource>
-   <classification authority="lcc">LD5297 .U55 1910</classification>
+   <classification authority="lcc">LD5297 .U55</classification>
    <relatedItem displayLabel="Project" type="host">
       <titleInfo>
          <title>University of Tennessee Commencement Programs</title>
